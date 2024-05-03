@@ -10,3 +10,8 @@
     padding: 0 60px;
     color: #fff;
 }
+
+.hero__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
