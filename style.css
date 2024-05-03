@@ -17,9 +17,26 @@
     grid-template-rows: 820px;
 }
 
-.column__left(
+.column__left{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
-)
+}
+
+.column__left h1{
+    font-size: 90px;
+}
+
+
+.column__left p{
+    font-size: 16px;
+    line-height: 2.3;
+}
+
+.column__right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
