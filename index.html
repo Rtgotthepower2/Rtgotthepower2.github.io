@@ -32,4 +32,65 @@
 
         </div>
     </body>
+    <h1>Computer Programming Soft Skills Tutoring</h1>
+    <p>soft skills primarily refer to the non-technical abilities that developers utilize to effectively work with others, manage projects, and communicate ideas. While technical skills are crucial for writing code and solving technical problems, soft skills complement these abilities and are essential for success in the workplace. </p>
+    <section id="booking">
+        <h2>Book Appointment</h2>
+        <form action="booking.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required><br>
+            <label for="service">Select Service:</label>
+            <select id="service" name="service" required>
+                <option value="">Select...</option>
+                <option value="Online via Zoom">Online via Zoom</option>
+                <option value="Online via Discord">Online via Discord</option>
+                <option value="Tsu Science Building">Tsu Science Building</option>
+                <option value="Tsu Technolgy Building">Tsu Technolgy Building</option>
+                <!-- Add more service options as needed -->
+            </select><br>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required><br>
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required><br>
+            <input type="submit" value="Book Appointment">
+        </form>
+    </section>
+
+    <h2>Contact Form</h2>
+
+<form action="submit.php" method="POST">
+<label for="phone">Phone Number:</label><br>
+<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+<input type="submit" value="Submit">
+</form>
+<nav class="navbar">
+<div class="navbar__container">
+    <a href="/" id="navbar__logo">Thanks For Visiting</a>
+    <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+    <ul class="navbar__menu">
+        <li class="navbar__item">
+            <a href="" class="navbar__links">HAVE </a>
+        </li>
+        <li class="navbar__item">
+            <a href="" class="navbar__links">A </a>
+        </li>
+        <li class="navbar__item">
+            <a href="" class="navbar__links">GREAT </a>
+        </li>
+        <li class="navbar__item">
+            <a href="" class="navbar__links">DAY </a>
+        </li>
+        </li>
+    </ul>
+</div>
+</nav>
+
 </html>
