@@ -281,6 +281,20 @@
         bottom: 2.5rem;
     }
 
+    #container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 400px;
+        background-color: #101010;
+    }
+    #container div{
+        height: 370px;
+        width: 355px;
+        background: #580258;
+        margin: 60px;
+        text-align: center;
+    }
 
     
 
