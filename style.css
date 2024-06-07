@@ -295,6 +295,23 @@
         margin: 60px;
         text-align: center;
     }
+
+    #containerrr{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 400px;
+        background-color: #101010;
+    }
+    #containerrr div{
+        height: 370px;
+        width: 355px;
+        background: #580258;
+        margin: 60px;
+        text-align: center;
+    }
+
+
     .green-button {
         background-color: green;
         color: white;
